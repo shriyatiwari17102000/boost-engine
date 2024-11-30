@@ -6,7 +6,7 @@ const DigitalJourney = () => {
     <div className="max-w-6xl bg-black text-white p-10 rounded-lg mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6">
       {/* Left Section - Text */}
       <div className="flex-1">
-        <h1 className="text-4xl font-semibold mb-4 text-center md:text-left">"Empower Your Digital Journey"</h1>
+        <h1 className="text-4xl font-semibold mb-4 ">"Empower Your Digital Journey"</h1>
         <p className="text-400 text-lg leading-relaxed w-full md:w-6/12">
           Discover how Boost Engine can help you thrive in today's competitive digital landscape. Start your transformation today!
         </p>

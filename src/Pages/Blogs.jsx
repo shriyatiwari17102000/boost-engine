@@ -11,9 +11,9 @@ const Blogs = () => {
       <div className="bg-black text-white flex flex-col items-center">
 
         {/* Content */}
-        <div className="flex flex-col items-center px-5 pt-20 pb-0 md:p-20 gap-5">
-          <button className="bg-white text-black px-6 py-2 rounded-full mb-6">Our Blogs</button>
-          <h1 className="text-4xl font-semibold mb-6 text-center md:text-left">Our latest insight & update</h1>
+        <div className="flex flex-col md:items-center px-5 pt-20 pb-0 md:p-20 gap-5">
+          <button className="bg-white text-black px-6 py-2 rounded-full mb-6 w-fit">Our Blogs</button>
+          <h1 className="text-4xl font-semibold mb-6 ">Our latest insight & update</h1>
 
         </div>
 
@@ -34,7 +34,7 @@ const Blogs = () => {
             <img
               src={ai} // Replace with your image URL
               alt="AI Transforming Business"
-              className="rounded-lg shadow-lg h-[350px]"
+              className="rounded-lg shadow-lg h-[350px] w-full"
             />
           </div>
         </div>

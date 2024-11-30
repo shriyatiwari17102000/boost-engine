@@ -51,9 +51,9 @@ const Services = () => {
     <div className="bg-black text-white flex flex-col items-center">   
 
     {/* Content */}
-    <div className="flex flex-col items-center px-5 py-20 md:p-20 gap-5 max-w-6xl">
-      <button className="bg-white text-black px-6 py-2 rounded-full mb-6 ">What we do</button>
-      <h1 className="text-4xl font-semibold mb-6 text-center md:text-left">The Genesis of Boost Engine</h1>
+    <div className="flex flex-col md:items-center px-5 py-20 md:p-20 gap-5 max-w-6xl">
+      <button className="bg-white text-black px-6 py-2 rounded-full mb-6 w-fit ">What we do</button>
+      <h1 className="text-4xl font-semibold mb-6 ">The Genesis of Boost Engine</h1>
       <p className="text-start text-lg w-full  leading-relaxed">
         Boost Engine Was Founded With A Clear Vision Of Driving Business Success Through Cutting-Edge Technology
         And Innovative Solutions. Established By A Team Of Passionate Developers And Entrepreneurs, Boost Engine
@@ -63,7 +63,7 @@ const Services = () => {
       </p>
     </div>
   </div>
-   <div className="flex flex-col items-center p-5 md:p-20">
+   <div className="flex flex-col items-center mt-10 md:mt-0 p-5 md:p-20">
    <button className="bg-white text-black px-6 py-2 border-solid border-2 border-black rounded-full mb-6">What we Offer</button>
    <h1 className="text-4xl font-semibold mb-6 w-auto lg:w-2/5 md:w-full text-center" >Key Services We Offer at Boost Engine</h1>
    <p className="text-center text-lg  max-w-4xl leading-relaxed">
