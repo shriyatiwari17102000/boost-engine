@@ -14,15 +14,8 @@ const App = () => {
          <Routes>
         <Route path="/" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />} />
         <Route path="/blogs" element={<Blogs />} />
-
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/whatwedo" element={<WhatWeDo />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/career" element={<Career />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
          </Layout>
     

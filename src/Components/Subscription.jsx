@@ -24,8 +24,6 @@ const Subscription = () => {
             </button>
           </form>
         </div>
-        {/* Bottom Semi-Circle */}
-        {/* <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[500px] h-[250px] bg-white rounded-t-full"></div> */}
       </div>
     );
   };

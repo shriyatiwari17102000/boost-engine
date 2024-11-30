@@ -16,30 +16,30 @@ const ContactForm = () => {
               <p className='text-sm'> 01, Street No. B, Bhanu Nagar, New Nagore Road, Jodhpur, Rajasthan</p>
             </p>
             <p className="mb-2">
-              <p  className='font-semibold font-base'>Phone</p> 
+              <p className='font-semibold font-base'>Phone</p>
               <p className='text-sm'><a href="tel:+917300054285" className="text-black hover:underline">+91-7300054285</a></p>
             </p>
             <p className="mb-4">
-              <p  className='font-semibold font-base'> Email</p>
+              <p className='font-semibold font-base'> Email</p>
               <p className='text-sm'>
-              <a href="mailto:boostengine001@gmail.com" className="text-black hover:underline">boostengine001@gmail.com</a>
+                <a href="mailto:boostengine001@gmail.com" className="text-black hover:underline">boostengine001@gmail.com</a>
               </p>
             </p>
             <div className='flex gap-3 mt-8'>
-            <FaInstagram className='text-2xl'/>
-            <RiFacebookCircleFill
- className='text-2xl' />
-            <FaTwitter className='text-2xl'/>
+              <FaInstagram className='text-2xl' />
+              <RiFacebookCircleFill
+                className='text-2xl' />
+              <FaTwitter className='text-2xl' />
             </div>
           </div>
-       
+
         </div>
 
         {/* Contact Form */}
         <div className="w-full md:w-1/2">
           <form className="md:px-6">
             <div className="mb-4">
-              
+
               <input
                 type="text"
                 id="firstName"
@@ -48,7 +48,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mb-4">
-           
+
               <input
                 type="email"
                 id="email"
@@ -57,7 +57,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mb-4">
-             
+
               <textarea
                 id="message"
                 rows="4"
