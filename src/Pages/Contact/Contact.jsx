@@ -12,7 +12,7 @@ const Contact = () => {
                 {/* Content */}
                 <div className="max-w-6xl flex flex-col items-center px-5 pt-20 md:p-20 gap-5 sm:px-16">
                     <button className="bg-white text-black px-6 py-2 rounded-full mb-6">Contact us</button>
-                    <h1 className="text-4xl font-semibold mb-6">"The Power of AI: How Artificial Intelligence Can Boost Your Business"</h1>
+                    <h1 className="text-4xl font-semibold mb-6 text-center md:text-left">"The Power of AI: How Artificial Intelligence Can Boost Your Business"</h1>
                     <p className="text-start text-lg w-full  leading-relaxed">
                         Whether you have a project in mind, need technical support, or just want to learn more about our services, we'd love to hear from you. Reach out to us using the contact form below or through our contact details. We're committed to responding promptly and look forward to collaborating with you.
                     </p>

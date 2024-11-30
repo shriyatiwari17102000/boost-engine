@@ -109,7 +109,7 @@ const Navbar = () => {
         <img
           src={logo}
           alt="Boost Engine Logo"
-          className="h-12 w-[150px] h-[100px] md:h-24 md:w-32"
+          className="h-12 w-[100px] h-[70px] md:h-24 md:w-32"
         />
         {/* Hamburger Menu Icon */}
         <button

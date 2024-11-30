@@ -13,7 +13,7 @@ const Blogs = () => {
         {/* Content */}
         <div className="flex flex-col items-center px-5 pt-20 pb-0 md:p-20 gap-5">
           <button className="bg-white text-black px-6 py-2 rounded-full mb-6">Our Blogs</button>
-          <h1 className="text-4xl font-semibold mb-6">Our latest insight & update</h1>
+          <h1 className="text-4xl font-semibold mb-6 text-center md:text-left">Our latest insight & update</h1>
 
         </div>
 

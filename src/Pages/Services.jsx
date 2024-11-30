@@ -52,8 +52,8 @@ const Services = () => {
 
     {/* Content */}
     <div className="flex flex-col items-center px-5 py-20 md:p-20 gap-5 max-w-6xl">
-      <button className="bg-white text-black px-6 py-2 rounded-full mb-6">What we do</button>
-      <h1 className="text-4xl font-semibold mb-6">The Genesis of Boost Engine</h1>
+      <button className="bg-white text-black px-6 py-2 rounded-full mb-6 ">What we do</button>
+      <h1 className="text-4xl font-semibold mb-6 text-center md:text-left">The Genesis of Boost Engine</h1>
       <p className="text-start text-lg w-full  leading-relaxed">
         Boost Engine Was Founded With A Clear Vision Of Driving Business Success Through Cutting-Edge Technology
         And Innovative Solutions. Established By A Team Of Passionate Developers And Entrepreneurs, Boost Engine

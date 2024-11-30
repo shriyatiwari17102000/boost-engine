@@ -4,8 +4,7 @@ import { BsDot } from "react-icons/bs";
 const Footer = () => {
     return (
       <footer className="bg-black text-white py-10 px-5 md:ps-[70px]">
-        <div className="container mx-auto flex justify-between	
-        flex-wrap md:grid md:grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Column 1: About */}
           <div>
            <img src={logo} alt="" className="mb-5" />
