@@ -14,6 +14,7 @@ const Navbar = () => {
         {/* Logo */}
         <img
           src={logo}
+          onClick={()=> navigate('/')}
           alt="Boost Engine Logo"
           className="h-12 w-[100px] h-[70px] md:h-24 md:w-32"
         />
